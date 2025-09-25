@@ -1,0 +1,208 @@
+.total-deatils{
+    text-align: center;
+    background-color: rgb(232, 113, 73);
+}
+.banner-img-con{
+    padding-top:50px;
+}
+
+.match-details{
+    background-color: black;
+    margin-left:7%;
+    margin-right:7%;
+    border-radius: 10px;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Roboto";
+    padding-top:30px;
+    padding-bottom: 30px;
+    text-align: start;
+}
+.latest-match-head{
+    text-align:start;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-family: "Roboto";
+    color:white;
+    padding-left:7.5%;
+}
+.c-head{
+    font-size: 24px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+.f-head{
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+.s-para{
+    font-family: "Roboto";
+    font-weight: bold;
+}
+.win-team-details{
+    padding-top:5%;
+}
+.team-logo{
+    margin-top:20%;
+    height:200px;
+    width:200px;
+
+}
+.matches-logo{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:30px;
+    width:80vw;
+    margin-left:10%;
+}
+.single-img-con{
+    width:250px;
+    border:solid 1px;
+    margin-left:50px;
+    margin-bottom:20px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: black;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+/* .single-img-con:hover{
+    cursor: pointer;
+    background-color: transparent;
+} */
+.single-img{
+    height:100px;
+    width:100px;
+}
+.won-team-head{
+    font-size: 16px;
+    text-align: center;
+    font-family: "Roboto";
+    color:white;
+}
+.won-team-para{
+    text-align: center;
+    font-family: "Roboto";
+    color:white;
+}
+
+@media screen and (max-width:600px) {
+    .banner-img{
+        text-align: center;
+        width:500px;
+    }
+    .c-head{
+        font-size: 16px;
+        font-family: "Roboto";
+    }
+    .c-para{
+        font-size: 10px;
+        font-family: "Roboto";
+        width:100px;
+    }
+    .win-team-details{
+        padding-left:20px;
+    }
+    .team-logo{
+        height:64px;
+        width:64px;
+        padding-top:100%;
+        padding-right:20%;
+    }
+    .match-details{
+        background-color: black;
+        margin-left:7%;
+        margin-right:7%;
+        border-radius: 10px;
+        color:white;
+        display: flex;
+        justify-content: space-around;
+        font-family: "Roboto";
+        padding-top:30px;
+        padding-bottom: 30px;
+        text-align: start;
+    }
+    .s-para{
+        font-size: 10px;
+        font-family: "Roboto";
+    }
+    .f-head{
+        font-size: 16px;
+        font-family: "Roboto";
+        font-weight: bold;
+    }
+    .single-img-con{
+        width:100px;
+        border:solid 1px;
+        margin-left:20px;
+        margin-bottom:20px;
+        border-radius: 5px;
+        text-align: center;
+        background-color: black;
+        padding-top:5px;
+        padding-bottom: 5px;
+    } 
+    .single-img{
+        height:48px;
+        width:48px;
+    }
+    .won-team-head{
+        font-size: 10px;
+        text-align: center;
+        font-family: "Roboto";
+        color:white;
+    }
+    .won-team-para{
+        font-size: 8px;
+        text-align: center;
+        font-family: "Roboto";
+        color:white;
+    }
+    .matches-logo{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top:30px;
+    }
+    .latest-match-head{
+        text-align:start;
+        font-family: "Roboto";
+        font-weight: bold;
+        color:white;
+        padding-left:8%;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .banner-img{
+        text-align: center;
+        width:720px;
+    }
+    .c-head{
+        font-size: 20px;
+        font-family: "Roboto";
+    }
+    .c-para{
+        font-size: 16px;
+        font-family: "Roboto";
+        width:150px;
+    }
+    .team-logo{
+        height:128px;
+        width:128px;
+        padding-top:30%;
+        padding-right:20%;
+    }
+    .s-para{
+        font-size: 16px;
+        font-family: "Roboto";
+    }
+    .f-head{
+        font-size: 20px;
+        font-family: "Roboto";
+        font-weight: bold;
+    }
+    
+}

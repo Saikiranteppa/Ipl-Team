@@ -1,0 +1,61 @@
+.loder{
+    color:white;
+}
+
+.srh-class{
+    height: 80px;
+    width:90px;
+}
+.teams-container{
+    display: flex;
+    margin-left:15%;
+    flex-wrap: wrap;
+    margin-left:20%;
+    margin-top:5%;
+    width:80vw;
+}
+.ipl-image-container{
+    display: flex;
+}
+.ipl-image-container:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.team-and-name-container{
+    display: flex;
+    border:solid white 2px;
+    margin-right:20px;
+    background-color: white transparent;
+    border-radius: 10px;
+    margin-top:30px;
+    padding:20px;
+    width:35%;
+}
+
+@media screen and (max-width:600px){
+    .team-and-name-container{
+    display: flex;
+    border:solid white 2px;
+    margin-right:20px;
+    background-color: white transparent;
+    border-radius: 10px;
+    margin-top:30px;
+    padding:20px;
+    width:50%;
+  }
+  .item-name{
+    padding-left: 20px;
+    padding-right: 15px;
+  }
+}
+
+.item-name{
+    color:white;
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: bold;
+    padding-left:30px;
+    padding-top:10px;
+    padding-right:20px;
+    text-align: start;
+}
